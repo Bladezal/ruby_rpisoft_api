@@ -1,5 +1,5 @@
 class Employee < ApplicationRecord
-  #acts_as_paranoid
+  acts_as_paranoid
   
   belongs_to :person
 
